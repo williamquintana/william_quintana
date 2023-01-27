@@ -1,0 +1,33 @@
+
+#maing {
+    display: grid;
+    grid-template-areas:
+        "titulo titulo"
+        "imagen parrafo";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.titulo-sobre{
+    grid-area: titulo;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.parrafo-sobre{
+    grid-area: parrafo;
+    margin-left: 15%;
+    margin-top: 25%;
+    top: 50%;
+    left: 50%;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+.imagen-sobre{
+    grid-area: imagen;
+    img{
+        width: 490px;
+        height: 690px;
+        border-radius: 7px;
+    }
+    margin-left: 20%;
+    margin-bottom: 10%;
+}

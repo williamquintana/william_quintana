@@ -1,0 +1,41 @@
+@media screen and (max-width: 479px) {
+    .imagenprin img {
+        text-align: center;
+        width: 60%;
+        height: 80%;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 16%;
+    }
+
+    .text-center {
+        margin-top: 16%;
+    }
+
+    .hero {
+        width: auto;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 0%;
+    }
+
+    .galer_esp {
+        width: auto;
+        margin-bottom: auto;
+    }
+
+    .video-galeria {
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+
+    #grillatest {
+        height: 1100px;
+        width: 100%;
+    }
+}

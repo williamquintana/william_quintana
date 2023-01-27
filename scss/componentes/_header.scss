@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    height: 100px;
+    background: rgba(0,0,0,0.6);
+
+    .right{
+        width: 80%;
+    }
+
+    .logo {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}

@@ -1,0 +1,29 @@
+.body-inicio {
+    background-image: url(/assets/img/sunset.jpg.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+.hero {
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.parrafo1 {
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
